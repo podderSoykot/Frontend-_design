@@ -20,10 +20,10 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
             {[
-              { name: 'Women', image: 'https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=800&h=1000&fit=crop', href: '/women' },
-              { name: 'Men', image: 'https://images.unsplash.com/photo-1617137968427-85924c800a22?w=800&h=1000&fit=crop', href: '/men' },
-              { name: 'Kids', image: 'https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&h=1000&fit=crop', href: '/kids' },
-              { name: 'Baby', image: 'https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&h=1000&fit=crop', href: '/baby' },
+              { name: 'Women', image: 'https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=1200&h=1600&fit=crop&q=85', href: '/women' },
+              { name: 'Men', image: 'https://images.unsplash.com/photo-1617137968427-85924c800a22?w=1200&h=1600&fit=crop&q=85', href: '/men' },
+              { name: 'Kids', image: 'https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=1200&h=1600&fit=crop&q=85', href: '/kids' },
+              { name: 'Baby', image: 'https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=1200&h=1600&fit=crop&q=85', href: '/baby' },
             ].map((category) => (
               <Link
                 key={category.name}

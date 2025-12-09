@@ -1,7 +1,13 @@
 import Link from 'next/link'
 
+interface FooterLink {
+  name: string
+  href: string
+  external?: boolean
+}
+
 export default function Footer() {
-  const footerLinks = {
+  const footerLinks: Record<string, FooterLink[]> = {
     'Customer Service': [
       { name: 'Contact Us', href: '/contact' },
       { name: 'FAQs', href: '/faqs' },

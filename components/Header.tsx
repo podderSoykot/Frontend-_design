@@ -22,29 +22,29 @@ export default function Header() {
   // Women dropdown categories
   const womenCategories = [
     [
-      { name: 'Outerwear', href: '/women/outerwear', image: 'https://images.unsplash.com/photo-1551028719-00167b16eac5?w=200&h=250&fit=crop' },
-      { name: 'Bottoms', href: '/women/bottoms', image: 'https://images.unsplash.com/photo-1594938291221-94f18cbb566b?w=200&h=250&fit=crop' },
-      { name: 'Accessories', href: '/women/accessories', image: 'https://images.unsplash.com/photo-1571945153237-4929e783af4a?w=200&h=250&fit=crop' },
+      { name: 'Outerwear', href: '/women/outerwear', image: 'https://images.unsplash.com/photo-1551028719-00167b16eac5?w=400&h=500&fit=crop&q=80' },
+      { name: 'Bottoms', href: '/women/bottoms', image: 'https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=400&h=500&fit=crop&q=80' },
+      { name: 'Accessories', href: '/women/accessories', image: 'https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=400&h=500&fit=crop&q=80' },
       { name: 'Special Collaborations', href: '/women/collaborations', isLogo: true },
-      { name: 'Cashmere', href: '/women/cashmere', image: 'https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=200&h=250&fit=crop' },
+      { name: 'Cashmere', href: '/women/cashmere', image: 'https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=400&h=500&fit=crop&q=80' },
     ],
     [
-      { name: 'T-Shirts, Fleece & Sweats', href: '/women/t-shirts', image: 'https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=200&h=250&fit=crop' },
-      { name: 'Dresses & Skirts', href: '/women/dresses', image: 'https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=200&h=250&fit=crop' },
+      { name: 'T-Shirts, Fleece & Sweats', href: '/women/t-shirts', image: 'https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400&h=500&fit=crop&q=80' },
+      { name: 'Dresses & Skirts', href: '/women/dresses', image: 'https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=400&h=500&fit=crop&q=80' },
       { name: 'HEATTECH', href: '/women/heattech', isLogo: true },
       { name: 'KAWS WINTER', href: '/women/kaws', isLogo: true },
       { name: 'PUFFTECH', href: '/women/pufftech', isLogo: true },
     ],
     [
-      { name: 'Sweaters & Cardigans', href: '/women/sweaters', image: 'https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=200&h=250&fit=crop' },
-      { name: 'Innerwear & Underwear', href: '/women/innerwear', image: 'https://images.unsplash.com/photo-1571945153237-4929e783af4a?w=200&h=250&fit=crop' },
+      { name: 'Sweaters & Cardigans', href: '/women/sweaters', image: 'https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=400&h=500&fit=crop&q=80' },
+      { name: 'Innerwear & Underwear', href: '/women/innerwear', image: 'https://images.unsplash.com/photo-1571945153237-4929e783af4a?w=400&h=500&fit=crop&q=80' },
       { name: 'AIRism', href: '/women/airism', isLogo: true },
       { name: 'NAQSHBANDI ATTIRE and JW ANDERSON', href: '/women/jw-anderson', isLogo: true },
       { name: '2025 Fall/Winter', href: '/women/fall-winter', isLogo: true },
     ],
     [
-      { name: 'Shirts & Blouses', href: '/women/shirts', image: 'https://images.unsplash.com/photo-1594938291221-94f18cbb566b?w=200&h=250&fit=crop' },
-      { name: 'Loungewear & Home', href: '/women/loungewear', image: 'https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=200&h=250&fit=crop' },
+      { name: 'Shirts & Blouses', href: '/women/shirts', image: 'https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=400&h=500&fit=crop&q=80' },
+      { name: 'Loungewear & Home', href: '/women/loungewear', image: 'https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=400&h=500&fit=crop&q=80' },
       { name: 'Sport Utility Wear', href: '/women/sport', isLogo: true },
       { name: 'UT: Graphic Tees', href: '/women/ut', isLogo: true },
       { name: 'Limited-Time Offers', href: '/women/sale', isLogo: true },
@@ -54,26 +54,67 @@ export default function Header() {
   // Men dropdown categories (similar structure)
   const menCategories = [
     [
-      { name: 'Outerwear', href: '/men/outerwear', image: 'https://images.unsplash.com/photo-1551028719-00167b16eac5?w=200&h=250&fit=crop' },
-      { name: 'Bottoms', href: '/men/bottoms', image: 'https://images.unsplash.com/photo-1594938291221-94f18cbb566b?w=200&h=250&fit=crop' },
-      { name: 'Accessories', href: '/men/accessories', image: 'https://images.unsplash.com/photo-1571945153237-4929e783af4a?w=200&h=250&fit=crop' },
+      { name: 'Outerwear', href: '/men/outerwear', image: 'https://images.unsplash.com/photo-1551028719-00167b16eac5?w=400&h=500&fit=crop&q=80' },
+      { name: 'Bottoms', href: '/men/bottoms', image: 'https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=400&h=500&fit=crop&q=80' },
+      { name: 'Accessories', href: '/men/accessories', image: 'https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=400&h=500&fit=crop&q=80' },
       { name: 'Special Collaborations', href: '/men/collaborations', isLogo: true },
     ],
     [
-      { name: 'T-Shirts, Fleece & Sweats', href: '/men/t-shirts', image: 'https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=200&h=250&fit=crop' },
-      { name: 'Shirts', href: '/men/shirts', image: 'https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=200&h=250&fit=crop' },
+      { name: 'T-Shirts, Fleece & Sweats', href: '/men/t-shirts', image: 'https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400&h=500&fit=crop&q=80' },
+      { name: 'Shirts', href: '/men/shirts', image: 'https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=400&h=500&fit=crop&q=80' },
       { name: 'HEATTECH', href: '/men/heattech', isLogo: true },
       { name: 'AIRism', href: '/men/airism', isLogo: true },
     ],
     [
-      { name: 'Sweaters & Cardigans', href: '/men/sweaters', image: 'https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=200&h=250&fit=crop' },
-      { name: 'Innerwear & Underwear', href: '/men/innerwear', image: 'https://images.unsplash.com/photo-1571945153237-4929e783af4a?w=200&h=250&fit=crop' },
+      { name: 'Sweaters & Cardigans', href: '/men/sweaters', image: 'https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=400&h=500&fit=crop&q=80' },
+      { name: 'Innerwear & Underwear', href: '/men/innerwear', image: 'https://images.unsplash.com/photo-1571945153237-4929e783af4a?w=400&h=500&fit=crop&q=80' },
       { name: 'Sport Utility Wear', href: '/men/sport', isLogo: true },
       { name: 'UT: Graphic Tees', href: '/men/ut', isLogo: true },
     ],
     [
-      { name: 'Loungewear & Home', href: '/men/loungewear', image: 'https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=200&h=250&fit=crop' },
+      { name: 'Loungewear & Home', href: '/men/loungewear', image: 'https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=400&h=500&fit=crop&q=80' },
       { name: 'Limited-Time Offers', href: '/men/sale', isLogo: true },
+    ],
+  ]
+
+  // Kids dropdown categories
+  const kidsCategories = [
+    [
+      { name: 'Outerwear', href: '/kids/outerwear', image: 'https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=400&h=500&fit=crop&q=80' },
+      { name: 'Bottoms', href: '/kids/bottoms', image: 'https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=400&h=500&fit=crop&q=80' },
+      { name: 'Tops & T-Shirts', href: '/kids/tops', image: 'https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=400&h=500&fit=crop&q=80' },
+      { name: 'Dresses', href: '/kids/dresses', image: 'https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=400&h=500&fit=crop&q=80' },
+    ],
+    [
+      { name: 'Sweaters & Cardigans', href: '/kids/sweaters', image: 'https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=400&h=500&fit=crop&q=80' },
+      { name: 'Accessories', href: '/kids/accessories', image: 'https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=400&h=500&fit=crop&q=80' },
+      { name: 'HEATTECH', href: '/kids/heattech', isLogo: true },
+      { name: 'AIRism', href: '/kids/airism', isLogo: true },
+    ],
+    [
+      { name: 'Innerwear', href: '/kids/innerwear', image: 'https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=400&h=500&fit=crop&q=80' },
+      { name: 'Sport Utility Wear', href: '/kids/sport', isLogo: true },
+      { name: 'UT: Graphic Tees', href: '/kids/ut', isLogo: true },
+      { name: 'Limited-Time Offers', href: '/kids/sale', isLogo: true },
+    ],
+  ]
+
+  // Baby dropdown categories
+  const babyCategories = [
+    [
+      { name: 'Outerwear', href: '/baby/outerwear', image: 'https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=400&h=500&fit=crop&q=80' },
+      { name: 'Bottoms', href: '/baby/bottoms', image: 'https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=400&h=500&fit=crop&q=80' },
+      { name: 'Tops & Onesies', href: '/baby/tops', image: 'https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=400&h=500&fit=crop&q=80' },
+    ],
+    [
+      { name: 'Sleepwear', href: '/baby/sleepwear', image: 'https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=400&h=500&fit=crop&q=80' },
+      { name: 'Accessories', href: '/baby/accessories', image: 'https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=400&h=500&fit=crop&q=80' },
+      { name: 'HEATTECH', href: '/baby/heattech', isLogo: true },
+      { name: 'AIRism', href: '/baby/airism', isLogo: true },
+    ],
+    [
+      { name: 'Innerwear', href: '/baby/innerwear', image: 'https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=400&h=500&fit=crop&q=80' },
+      { name: 'Limited-Time Offers', href: '/baby/sale', isLogo: true },
     ],
   ]
 
@@ -83,6 +124,10 @@ export default function Header() {
         return womenCategories
       case 'MEN':
         return menCategories
+      case 'KIDS':
+        return kidsCategories
+      case 'BABY':
+        return babyCategories
       default:
         return []
     }

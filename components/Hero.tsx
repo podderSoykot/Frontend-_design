@@ -45,7 +45,7 @@ export default function Hero() {
       {/* Right Side - Product Detail */}
       <div className="relative w-1/2 h-full overflow-hidden bg-gray-100">
         <img
-          src="https://images.unsplash.com/photo-1551028719-00167b16eac5?w=1000&h=1400&fit=crop&crop=center"
+          src="https://images.unsplash.com/photo-1551028719-00167b16eac5?w=1400&h=2000&fit=crop&crop=center&q=85"
           alt="Seamless Down Parka Detail"
           className="w-full h-full object-cover object-center"
         />
